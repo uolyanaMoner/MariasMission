@@ -78,7 +78,7 @@ export default function StarPathChristmas() {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden select-none text-white p-6"
+      className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden select-none text-black p-6"
     >
       <div className="absolute inset-0 z-30 pointer-events-none">
         <SnowCanvas width={windowSize.width} height={windowSize.height} />
