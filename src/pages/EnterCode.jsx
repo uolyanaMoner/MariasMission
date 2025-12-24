@@ -10,14 +10,14 @@ export default function EnterCode() {
   const [success, setSuccess] = useState(false);
   const navigate = useNavigate();
 
-  const SECRET = "Maro2026";
+  const SECRET = "SorryNana";
 
   const handleUnlock = () => {
     if (code.trim().toLowerCase() === SECRET.toLowerCase()) {
       setSuccess(true);
       setTimeout(() => navigate("/puzzle"), 3500);
     } else {
-      alert("Nope 🎅! Try again.");
+      alert("Nope 🎅! Msh ana ba2ol el so2al 100 mara 🤨.");
     }
   };
 
